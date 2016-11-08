@@ -1,0 +1,116 @@
+a,a:hover{
+    color: #ffffff;
+}
+*{
+    font-size: 12px;
+}
+.clear{
+    clear: both;
+}
+/*
+第一行 头部
+*/
+.row-one{
+    height: 52px;
+    background-color: #00ae66;
+}
+.row-one .logo{
+    margin: 18px 0 0 -5px;
+    color:#ffffff;
+}
+.row-one .menu{
+    text-align: center;
+    color :#ffffff;
+    font-size: 10px;
+    padding-top: 8px;
+}
+.row-one .menu>ul{
+    cursor: pointer;
+}
+.row-one .menu>ul:last-child{
+    margin: 0 10px 0 10px;
+}
+/*
+第二行 户型轮播图
+*/
+.row-two{
+    height: 277px;
+    margin: 0;
+    background-color: #d6d6d6;
+}
+/*
+第三行 户型介绍
+*/
+.row-three{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    height: 67px;
+    background-color: #f9f9f9;
+
+}
+.row-three>div>span{
+    display: inline-block;
+    padding: 10px 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.row-three ul{
+    width: 70px;
+    font-size: 14px;
+    text-align: center;
+    border-left: 1px solid #e2e2e2;
+    padding: 15px 0;
+}
+.row-three ul>li:first-child{
+    margin-bottom: 3px;
+}
+/*
+第四行
+*/
+.row-four{
+    height: 66px;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+.row-four div{
+    border-right: 1px solid #e2e2e2;
+}
+
+.row-four ul li:first-child{
+    font-size: 14px;
+}
+.row-four ul li:last-child{
+    color: red;
+    font-size: 14px;
+}
+.row-four div:last-child{
+    border-right: none;
+}
+/*
+第五行
+*/
+.container .row-five{
+    height: 52px;
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 52px;
+}
+.container .row-five>span:first-child{
+    font-size: 14px;
+    margin-right: 10px;
+}
+/*
+第七行
+*/
+.container .row-seven{
+    height: 52px;
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 52px;
+    margin: 0;
+}
+.container .row-seven>div>span:first-child{
+    font-size: 14px;
+    margin-right: 10px;
+}
+.container .row-seven>div:first-child>span:first-child{
+    margin-left: -15px;
+}
